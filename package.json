@@ -1,0 +1,12 @@
+{
+  "name": "semantic-gulp-clone-issue",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "cd semantic && gulp build && ls -l dist && ls dist/semantic.css",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  }
+}
